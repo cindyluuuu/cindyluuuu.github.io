@@ -1,0 +1,53 @@
+/* ------------------------- */
+/* Estilos Generales */
+/* ------------------------- */
+
+body {
+     background-color: hsla(210, 4%, 11%, 1);;
+}
+
+
+
+
+.titulo {
+     color: #fff;
+     font-size: 55px;
+     text-transform: uppercase;
+     letter-spacing: 7px;
+}
+
+.galeria img {
+     box-shadow: 0 8px 10px -4px rgba(178, 242, 251, 0.6);
+     border-radius: 15px;
+     size: 50px;
+}
+
+.materialbox-caption {
+     bottom: 30px;
+     right: 0;
+     width: 70%;
+     height: auto;
+     padding: 10px;
+     margin: auto;
+     background: #000;
+     box-shadow: 5px 5px #fff;
+     font-size: 20px;
+     color: #fff;
+     line-height: 28px;
+}
+
+.galeria .col {
+     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+     .materialbox-caption {
+          width: 90%;
+     }
+}
+
+@media screen and (max-width: 992px){
+     .materialbox-caption {
+          width: 70%;
+     }
+}
